@@ -28,7 +28,7 @@ export interface BookingState {
 }
 
 export const SERVICES: Record<ServiceId, { name: string; basePrice: number; icon: string }> = {
-  maison: { name: "Lavage de maison", basePrice: 399, icon: "🏠" },
+  maison: { name: "Lavage de maison", basePrice: 449, icon: "🏠" },
   vitres: { name: "Lavage de vitres", basePrice: 199, icon: "🪟" },
   complet: { name: "Forfait Complet", basePrice: 699, icon: "✨" },
   gouttieres: { name: "Nettoyage de gouttières", basePrice: 149, icon: "🧹" },
