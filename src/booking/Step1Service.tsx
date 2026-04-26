@@ -23,7 +23,7 @@ const MAIN_SERVICES: Array<{
     icon: "🏠",
     title: "Lavage de maison",
     subtitle: "Softwash professionnel — vinyle, agrégat, brique",
-    price: 399,
+    price: 449,
     badge: "Le plus populaire ⭐",
     included: ["Softwash basse pression", "Produits écoresponsables", "Résultats garantis"],
     fullIncluded: [
