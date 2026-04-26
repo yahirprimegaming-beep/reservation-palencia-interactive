@@ -30,7 +30,7 @@ const MAIN_SERVICES: Array<{
       "Softwash basse pression (aucun risque)",
       "Produits écoresponsables et biodégradables",
       "Traitement anti-algues et anti-moisissures",
-      "Nettoyage des soffites et fascias",
+      "Nettoyage du revêtement des gouttières et fascias",
       "Rinçage complet de la fondation",
       "Protection de vos plantes et végétaux",
       "Résultats garantis ou on revient gratuitement",
