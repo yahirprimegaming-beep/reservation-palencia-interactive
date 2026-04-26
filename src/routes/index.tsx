@@ -1,26 +1,23 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { BookingFunnel } from "@/booking/BookingFunnel";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Palencia Services Extérieur — Réservation en ligne | Blainville" },
+      {
+        name: "description",
+        content: "Réservez votre lavage de maison, vitres, gouttières ou toiture sur la Rive-Nord. Résultats garantis. 88 avis Google ⭐⭐⭐⭐⭐. Devis en 2 minutes.",
+      },
+      { property: "og:title", content: "Palencia Services Extérieur — Réservation en ligne" },
+      { property: "og:description", content: "Lavage extérieur premium sur la Rive-Nord et Laval. Résultats garantis." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return <BookingFunnel />;
 }
