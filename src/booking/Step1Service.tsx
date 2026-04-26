@@ -30,10 +30,10 @@ const MAIN_SERVICES: Array<{
       "Softwash basse pression (aucun risque)",
       "Produits écoresponsables et biodégradables",
       "Traitement anti-algues et anti-moisissures",
-      "Nettoyage des soffites et fascias",
+      "Nettoyage du revêtement des gouttières et fascias",
       "Rinçage complet de la fondation",
       "Protection de vos plantes et végétaux",
-      "Résultats garantis ou on revient gratuitement",
+      "Résultats garantis",
       "Avant et après photographiés",
     ],
   },
@@ -41,15 +41,13 @@ const MAIN_SERVICES: Array<{
     id: "vitres",
     icon: "🪟",
     title: "Lavage de vitres",
-    subtitle: "Intérieur + extérieur, cadres et moustiquaires",
+    subtitle: "Extérieur seulement, cadres inclus",
     price: 199,
-    included: ["Vitres intérieures et extérieures", "Nettoyage des cadres", "Moustiquaires incluses"],
+    included: ["Vitres extérieures", "Nettoyage des cadres", "Eau purifiée (zéro trace)"],
     fullIncluded: [
-      "Vitres intérieures et extérieures",
+      "Vitres extérieures",
       "Nettoyage des cadres de fenêtres",
-      "Moustiquaires démontées et nettoyées",
       "Eau purifiée (zéro trace, zéro coulisse)",
-      "Lubrification des rails de fenêtres",
       "Résultat impeccable garanti",
     ],
   },
@@ -63,8 +61,8 @@ const MAIN_SERVICES: Array<{
     premium: true,
     included: [
       "Lavage complet de la maison",
-      "Toutes les vitres int/ext",
-      "Cadres et moustiquaires",
+      "Vitres intérieures et extérieures",
+      "Cadres de fenêtres inclus",
       "Économisez 100$+ vs séparé",
     ],
     fullIncluded: [],
@@ -73,7 +71,7 @@ const MAIN_SERVICES: Array<{
 
 const SECONDARY: Array<{ id: ServiceId; label: string; price: number }> = [
   { id: "gouttieres", label: "Nettoyage de gouttières", price: 149 },
-  { id: "toiture", label: "Lavage de toiture (Softwash)", price: 399 },
+  { id: "toiture", label: "Décontamination de toiture", price: 699 },
   { id: "patio", label: "Nettoyage patio/entrée", price: 199 },
 ];
 
