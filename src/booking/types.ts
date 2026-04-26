@@ -32,7 +32,7 @@ export const SERVICES: Record<ServiceId, { name: string; basePrice: number; icon
   vitres: { name: "Lavage de vitres", basePrice: 199, icon: "🪟" },
   complet: { name: "Forfait Complet", basePrice: 699, icon: "✨" },
   gouttieres: { name: "Nettoyage de gouttières", basePrice: 149, icon: "🧹" },
-  toiture: { name: "Lavage de toiture", basePrice: 399, icon: "🏚️" },
+  toiture: { name: "Décontamination de toiture", basePrice: 699, icon: "🏚️" },
   patio: { name: "Nettoyage patio/entrée", basePrice: 199, icon: "🧱" },
 };
 

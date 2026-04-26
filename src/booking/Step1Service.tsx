@@ -33,7 +33,7 @@ const MAIN_SERVICES: Array<{
       "Nettoyage du revêtement des gouttières et fascias",
       "Rinçage complet de la fondation",
       "Protection de vos plantes et végétaux",
-      "Résultats garantis ou on revient gratuitement",
+      "Résultats garantis",
       "Avant et après photographiés",
     ],
   },
