@@ -69,5 +69,20 @@ function RootShell({ children }: { children: React.ReactNode }) {
 }
 
 function RootComponent() {
-  return <Outlet />;
+  return (
+    <>
+      <Outlet />
+      {/* Legal-name disclosure — required to reconcile our Google Business
+          Profile ("Multiservices Palencia") with the trade name shown
+          publicly. Plain text, prerendered into dist/client/index.html,
+          crawlable. */}
+      <footer className="bg-navy text-cream/70 py-5 border-t border-gold/20">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <p className="font-body text-xs leading-relaxed">
+            Palencia Services Extérieur est le nom commercial de Multiservices Palencia.
+          </p>
+        </div>
+      </footer>
+    </>
+  );
 }
